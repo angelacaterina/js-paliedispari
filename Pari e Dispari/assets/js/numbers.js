@@ -5,9 +5,9 @@ var numberUser = Number(prompt("inserire un numero da 1 a 5"));
 // 2. Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 
 /** Numero random da 1 a 5
-* @param int min - numero minino
-* @param int max - mumero massimo
-* @return int - numero random
+ * @param int min - numero minino
+ * @param int max - mumero massimo
+ * @return int - numero random
 */
 function numberRandomPc(min, max) {
   return Math.floor(Math.random() * (max - min) ) + min;
@@ -23,9 +23,9 @@ var randNumbPc = numberRandomPc(1, 5);
 // 4. Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
 /** somma di due numeri
-* @param int numUser - il primo numero da sommare
-* @param int numPc - il secondo numero da sommare
-* @return int - somma dei due numeri
+ * @param int numUser - il primo numero da sommare
+ * @param int numPc - il secondo numero da sommare
+ * @return int - somma dei due numeri
 */
 function sum(numUser, numPc){
   var result = numUser + numPc;
